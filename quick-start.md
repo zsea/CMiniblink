@@ -24,7 +24,7 @@
       <Button name="closebtn" padding="0,1,1,0" width="30" height="30" normalimage="file='skin/closem.png' source='0,0,30,30'" hotimage="file='skin/closem.png' source='0,30,30,60'" pushedimage="file='skin/closem.png' source='0,60,30,90'"></Button>
     </HorizontalLayout>
     <HorizontalLayout>
-      <miniblink name="login_browser" url="about:blank" padding="0,0,5,0"></TBWeb>
+      <miniblink name="login_browser" url="about:blank" padding="0,0,5,0"></miniblink>
     </HorizontalLayout>
     <HorizontalLayout height="36">
       <Label text="CMiniblink" textcolor="0xFF0000FF" textpadding="5,5,5,5"></Label>
