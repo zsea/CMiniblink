@@ -6,6 +6,8 @@
 
 # API
 
+> 提示：除```RunJs```和```SimulationAction```外的所有接口和miniblink一样，均不能跨线程调用。
+
 仅对原接口进行封装，使其符合面向对象。
 
 所有接口的用途可以参考[原文档](http://miniblink.net/doc-main.html)。
@@ -69,3 +71,4 @@
 |void SimulationAction(MB_ACTION_ITEM* action)| | 模拟一个鼠标或键盘动作。|
 |void FlushCookie()| |将内存的中cookie写入到磁盘中。|
 |void Goto(LPCTSTR url)| |跳转到指定地址，若```url```不是一个```http```或```https```开头的网址，将调用```void wkeLoadFile(wkeWebView webView, const utf8* filename)```加载本地文件。|
+
