@@ -40,7 +40,7 @@
 
 由于该控件属于自定义控件，需要添加自定义的```xml```标签解析，在```CDuiFrameWnd```类的```CreateControl```中添加如下代码：
 ```c++
-CControlUI* CLoginWnd::CreateControl(LPCTSTR pstrClass) {
+CControlUI* CDuiFrameWnd::CreateControl(LPCTSTR pstrClass) {
 	if (_tcscmp(pstrClass, _T("Miniblink")) == 0)
 	{
 		DuiLib::CMiniblink *web = new DuiLib::CMiniblink();

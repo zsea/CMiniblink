@@ -14,3 +14,10 @@
 |virtual void OnDocumentReady(CWebFrame* frame)|void wkeOnDocumentReady2(wkeWebView webView, wkeDocumentReady2Callback callback, void* param)| |
 |virtual bool OnDownload(const char *url)|void wkeOnDownload(wkeWebView webView, wkeDownloadCallback callback, void* param)| |
 |virtual bool OnResponse(const char* url, CNetJob* job)| void wkeNetOnResponse(wkeWebView webView, wkeNetResponseCallback callback, void* param)|  |
+|virtual void OnConsole(wkeConsoleLevel level, LPCWSTR message, LPCWSTR sourceName, unsigned sourceLine, LPCWSTR stackTrace)|void wkeOnConsole(wkeWebView webView, wkeConsoleCallback callback, void* param)| |
+|virtual bool OnRequestBegin(const char * url, CNetJob* job)|void wkeOnLoadUrlBegin(wkeWebView webView, wkeLoadUrlBeginCallback callback, void* callbackParam)| |
+|virtual void OnRequestEnd(const char* url, CNetJob* job, void* buf, int len)| void wkeOnLoadUrlEnd(wkeWebView webView, wkeLoadUrlEndCallback callback, void* callbackParam) | |
+|virtual void OnCreateScriptContext(CWebFrame* frame, void* context, int extensionGroup, int worldId)| void wkeOnDidCreateScriptContext(wkeWebView webView, wkeDidCreateScriptContextCallback callback, void* callbackParam)| |
+|virtual void OnReleaseScriptContext(CWebFrame* frame, void* context, int worldId)| void wkeOnWillReleaseScriptContext(wkeWebView webView, wkeWillReleaseScriptContextCallback callback, void* callbackParam)| |
+|virtual void OnMediaLoad(const char* url, wkeMediaLoadInfo* info)|void wkeOnWillMediaLoad(wkeWebView webView, wkeWillMediaLoadCallback callback, void* callbackParam)| |
+|virtual void OnLoadingFinish(LPCWSTR url, wkeLoadingResult result, LPCWSTR failedReason) | void wkeOnWillMediaLoad(wkeWebView webView, wkeLoadingFinishCallback callback, void* callbackParam) | |

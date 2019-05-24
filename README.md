@@ -1,3 +1,17 @@
+# 声明
+
+本项目仅受中华人民共和国法律的管制。
+
+# 授权
+
+满足以下所有条件的个人和组织可以免费使用本项目代码且可以应用于任何的商业项目。
+
+条件：
+
+1. 遵守中华人民共和国的法律。
+2. 征信黑名单上的个人和组织不得用该项目。
+3. 必须遵守[miniblink](http://miniblink.net/)的相关开源协议。
+
 # 介绍
 
 **CMiniblink**是基于[miniblink](http://miniblink.net/)开发的DuiLib控件。
@@ -6,4 +20,8 @@
 
 # 目录
 
-[目录](SUMMARY.md)
+* [介绍](README.md)
+* [快速开始](quick-start.md)
+* [接口介绍](api.md)
+* [事件处理](event.md)
+* [常见问题](qa.md)
