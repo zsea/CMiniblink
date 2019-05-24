@@ -10,7 +10,7 @@
 
 1. 遵守中华人民共和国的法律。
 2. 征信黑名单上的个人和组织不得用该项目。
-3. 必须遵守[miniblink](http://miniblink.net/)的相关开源协议。
+3. 必须遵守[miniblink](http://miniblink.net/)的相关协议。
 
 # 介绍
 
